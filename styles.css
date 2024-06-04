@@ -86,7 +86,8 @@ body.dark-mode #dark-mode-toggle:hover {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding: 50px;
+    padding-left: 300px;
+    padding-top: 50px;
     background-image: url('img/Group\ 35931.png'); /* Add background image here */
     background-size: auto; /* Adjust the size of the background image */
     background-position: center; /* Center the background image */
@@ -100,6 +101,7 @@ body.dark-mode .hero {
 }
 
 .hero h1 {
+    
     font-family: "Metrophobic", sans-serif;
     font-weight: 600;
     font-style: normal;
@@ -183,6 +185,8 @@ body.dark-mode .watch-video-btn:hover {
 
 /* Phone Images Section */
 .phone-images {
+    padding-bottom: 150px;
+    padding-right: 100px;
     margin-top: -10rem;
     display: flex;
     gap: 0;
@@ -192,19 +196,21 @@ body.dark-mode .watch-video-btn:hover {
 }
 
 .phone-images img {
-    width: 400px; /* Adjust the width of the phone images */
+     /* Adjust the width of the phone images */
     position: absolute;
     transition: transform 0.3s;
 }
 
 .phone-images img:nth-child(1) {
+    width: 380px;
     transform: rotate(15deg);
-    z-index: 3;
-    left: 250px;
-    top: 0;
+    z-index: 1;
+    left: 200px;
+    bottom: 30px;
 }
 
 .phone-images img:nth-child(2) {
+    width: 420px;
     transform: rotate(15deg);
     z-index: 2;
     left: 150px; /* Overlap the second image on the first */
@@ -212,8 +218,9 @@ body.dark-mode .watch-video-btn:hover {
 }
 
 .phone-images img:nth-child(3) {
+    width: 480px;
     transform: rotate(15deg);
-    z-index: 1;
+    z-index: 3;
     left: 50px; /* Overlap the third image on the second */
     top: 100px;
 }
